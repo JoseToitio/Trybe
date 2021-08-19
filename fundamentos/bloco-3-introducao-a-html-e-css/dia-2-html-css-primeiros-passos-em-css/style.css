@@ -1,0 +1,26 @@
+#titulo{
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+    text-align: center;
+    
+}
+.cor-favorita{
+    text-align: left;
+}
+#paragrafo-cor-fav{
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+#amarelo{
+    background-color: yellow;
+}
+#vermelho{
+    background-color: red;
+}
+#marrom{
+    background-color: brown;
+}
