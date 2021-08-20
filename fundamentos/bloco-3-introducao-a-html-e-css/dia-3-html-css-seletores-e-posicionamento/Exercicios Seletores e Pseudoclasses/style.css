@@ -1,18 +1,60 @@
-body{
-    background-color: #181818;
-    color: white;
-}
-h1, p{
-    text-align: center;
+ol{
+    background-color: yellow;
 }
 
-#minhalista:hover{
-    background-color: aquamarine;
-}
-#minhalista:active{
-    color: black
+ol li.par{
+    background-color: green;
 }
 
-.list-style{
-    
+ol li.impar{
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    color: red;
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+   font-weight: 150;
+}
+
+.lifirst3{
+    color: blue;
+}
+
+.java{
+    background-color: pink;
+}
+
+li a:hover{
+    font-weight: bold;
+}
+
+#StackOverflow:hover{
+    color: orange;
+}
+
+#W3Schools:hover{
+    color: green;
+}
+
+#MDN:hover{
+    color: black;
+}
+
+#DevDocs:hover{
+    color: yellow;
+}
+
+#Trybe:hover{
+    color: green;
 }
