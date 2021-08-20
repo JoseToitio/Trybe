@@ -1,0 +1,18 @@
+body{
+    background-color: #181818;
+    color: white;
+}
+h1, p{
+    text-align: center;
+}
+
+#minhalista:hover{
+    background-color: aquamarine;
+}
+#minhalista:active{
+    color: black
+}
+
+.list-style{
+    
+}
