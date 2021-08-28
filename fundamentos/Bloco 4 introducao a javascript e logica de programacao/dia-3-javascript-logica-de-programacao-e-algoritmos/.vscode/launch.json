@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/exercicio2.js"
+        },
+        {
+            "type": "node-terminal",
+            "name": "node.js",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
