@@ -85,6 +85,18 @@
         let imageSectionLeft = document.createElement('img');
         imageSectionLeft.src = 'https://picsum.photos/200';
         document.querySelector('.left-content').appendChild(imageSectionLeft);
+        // Tarefa 8
+        let lista = ['um','dois','três','quartro','cinco','seis','sete','oito','nove','dez']
+        let listUnOrdered = document.createElement('ul');
+        document.querySelector('.right-content').append(listUnOrdered)
+        for ( let index = 0; index < lista.length; index += 1){
+            let list = lista[index];
+            let li = document.createElement('li');
+            li.innerHTML = list;
+            document.querySelector('ul').appendChild(li);
+        }
+        
+        
 
     </script>
   </body>
