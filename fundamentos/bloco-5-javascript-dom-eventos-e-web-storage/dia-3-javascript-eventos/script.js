@@ -33,3 +33,29 @@ function createDaysOfTheWeek() {
     }
   }
   implementsDays();
+
+  function implementsHolidays(feriados) {
+      let elementId = document.querySelector('.buttons-container')
+      let button = document.createElement('button');
+      button.id = 'btn-holiday';
+      button.innerText = feriados
+      elementId.appendChild(button);
+      button.addEventListener('click', function (){
+          let feriados = document.querySelectorAll('.holiday');
+          let backgroundColor = 'rgb(238,238,238)';
+          let newColor = 'white';
+          for (let index = 0; index < feriados.length; index += 1){
+              let days = feriados[index]
+           if (days.style.backgroundColor === newColor){
+              days.style.backgroundColor = backgroundColor;
+          } else {
+              days.style.backgroundColor = newColor;
+          }
+        }
+      })
+      
+      
+
+  }
+  implementsHolidays('Feriados!');
+  
