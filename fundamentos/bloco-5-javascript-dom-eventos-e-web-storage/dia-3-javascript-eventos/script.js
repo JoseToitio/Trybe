@@ -106,9 +106,9 @@ buttonFriday.addEventListener('click', implementsFriday)
     
   }
 tasks('Cozinhar');
-tasks('Estudar');
-tasks('Dormir');
-tasks('Escovar os dentes');
+// tasks('Estudar');
+// tasks('Dormir');
+// tasks('Escovar os dentes');
 
   function legendaTasks (color){
       let elementTasks = document.querySelector('.my-tasks');
@@ -120,4 +120,16 @@ tasks('Escovar os dentes');
   }
 legendaTasks('red')
 
-  
+  function taskClass () {
+      let selectedTask = document.getElementsByClassName('task selected');
+      let myTasks = document.querySelector('.task');
+
+      myTasks.addEventListener('click', function(event){
+          if (selectedTask.length === 0){
+              event.target.className = 'task selected';
+          } else {
+              event.target.className = 'task';
+          }
+      })
+  }
+  taskClass();
