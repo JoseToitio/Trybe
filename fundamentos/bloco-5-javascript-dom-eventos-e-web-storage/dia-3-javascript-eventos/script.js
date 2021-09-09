@@ -23,11 +23,14 @@ function createDaysOfTheWeek() {
         let daysListItem = document.createElement('li');
         daysListItem.innerHTML = days;
         daysList.appendChild(daysListItem)
-        if (days == 24 || days == 25 || days == 31){
+        if (days == 24 || days == 31){
             daysListItem.className = 'day holiday'
-        } else if (days == 4 || days == 11 || days == 18 || days == 25){
+        } else if (days == 4 || days == 11 || days == 18 ){
             daysListItem.className = 'day friday'
-        } else {
+        }else if (days == 25){
+            daysListItem.className = 'day holiday friday';
+        }
+         else {
             daysListItem.className = 'day'
         }
     }
@@ -53,9 +56,27 @@ function createDaysOfTheWeek() {
           }
         }
       })
-      
-      
-
   }
   implementsHolidays('Feriados!');
+let elementFriday = document.querySelector('.buttons-container');
+let buttonFriday = document.createElement('button');
+buttonFriday.id = 'btn-friday'
+elementFriday.appendChild(buttonFriday);
+buttonFriday.innerHTML = "Sexta-Feira";
+buttonFriday.addEventListener('click', implementsFriday)
+
+  function implementsFriday(){
+    let sextas = [4,11,18,25]
+    let fridays = document.querySelectorAll('.friday');
+    let text = 'Sextouuu!!!'
+    for (let index = 0; index < fridays.length; index += 1){
+        let days = fridays[index];
+        console.log(days)
+        if (days.innerHTML !== text){
+            days.innerHTML = text;
+        } else {
+            days.innerHTML = sextas[index];
+        }
+    }
+  }
   
