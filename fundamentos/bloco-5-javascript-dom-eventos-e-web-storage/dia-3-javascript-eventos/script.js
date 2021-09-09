@@ -79,4 +79,45 @@ buttonFriday.addEventListener('click', implementsFriday)
         }
     }
   }
+
+  function zoomDays(){
+      let days = document.querySelector('#days');
+      days.addEventListener('mouseover', function (event){
+          event.target.style.fontSize = '33px';
+          event.target.style.fontWeight = '600';
+      })
+  }
+  function zoomOutDays(){
+      let days = document.querySelector('#days');
+      days.addEventListener('mouseout', function (event){
+          event.target.style.fontSize = '20px';
+          event.target.style.fontWeight = '200';
+      })
+  }
+  zoomDays ();
+  zoomOutDays();
+
+  function tasks (tasks) {
+    let myTasks = document.querySelector('.my-tasks');
+        let listTasks = document.createElement('span')
+        listTasks.innerHTML = tasks;
+        myTasks.appendChild(listTasks);
+    
+    
+  }
+tasks('Cozinhar');
+tasks('Estudar');
+tasks('Dormir');
+tasks('Escovar os dentes');
+
+  function legendaTasks (color){
+      let elementTasks = document.querySelector('.my-tasks');
+      let divTask = document.createElement('div');
+
+      divTask.className = 'task';
+      divTask.style.backgroundColor = color;
+      elementTasks.appendChild(divTask)
+  }
+legendaTasks('red')
+
   
