@@ -1,0 +1,30 @@
+#header {
+    text-align: center;
+}
+#nav select {
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    
+}
+
+
+
+
+#div-title {
+    text-align: center;
+}
+
+#content-text{
+    display: flex;
+    
+}
+
+#content-text p {
+    
+    margin: auto;
+    text-align: center;
+    vertical-align: text-top;
+    margin-top: 50px;
+}
