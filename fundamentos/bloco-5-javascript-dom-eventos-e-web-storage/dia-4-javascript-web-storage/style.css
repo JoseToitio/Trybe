@@ -1,10 +1,14 @@
-
+#header {
+    text-align: center;
+}
 #nav select {
     margin-right: 10px;
     width: auto;
     height: auto;
     font-size: 15px;
+    
 }
+
 
 
 
@@ -14,6 +18,7 @@
 
 #content-text{
     display: flex;
+    
 }
 
 #content-text p {
