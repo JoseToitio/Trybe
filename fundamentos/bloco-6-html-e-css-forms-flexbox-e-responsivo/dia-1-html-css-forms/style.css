@@ -1,0 +1,22 @@
+.set-block {
+    width: 50%;
+    margin: auto;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.set-block label {
+    display: block;
+    margin: 10px 0;
+}
+
+.casa-ap input {
+    display: flexbox;
+}
+
+button {
+    margin-top: 20px;
+    
+}
