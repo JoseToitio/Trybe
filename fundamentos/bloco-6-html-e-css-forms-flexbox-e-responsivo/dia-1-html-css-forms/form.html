@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário de Currículo</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <fieldset class="set-block">
+            <legend>Formulário de Currículo</legend>
+            <label for="nome">Nome:
+                <input class="width100"type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="40" required>
+            </label>
+            <label for="email">Email:
+                <input class="width100"type="email" name="email" id="email" maxlength="50" placeholder="Digite seu email" required>
+            </label>
+            <label for="cpf">CPF:
+                <input class="width100"type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" maxlength="11" required>
+            </label>   
+            <label for="end">Endereço:
+                <input class="width100"type="text" name="end" id="end" placeholder="Digite seu Endereço" maxlength="200" required>
+            </label>
+            <label for="estados">Estado:
+                <select class="width100"name="estados" id="estados" required>
+                </select>
+            </label>
+            <label for="resid" class="casa-ap">Residência:
+                <label for="casa">
+                    <input type="radio" name="resid" id="casa" class="casa-ap" required>Casa
+                </label>
+                <label for="ap">
+                    <input type="radio" name="resid" id="ap" class="casa-ap" required>Apartamento
+                </label>
+            </label>
+        </fieldset>
+        <fieldset class="set-block">
+            <legend>Sobre Você</legend>
+            <label for="resume-curriculo">
+                <textarea name="resume" class="width100"id="resume-curriculo" cols="30" rows="10" maxlength="1000"placeholder="Nos conte sobre você" required></textarea>
+            </label>
+            <label for="cargo">Cargo:
+                <input type="text" name="cargo" id="cargo" placeholder="Seu cargo" maxlength="40" class="width100"required>
+            </label>
+            <label for="description-cargo">Descrição do Cargo:
+                <input type="text" name="description-cargo" id="description-cargo" required class="width100" maxlength="500">
+            </label>
+            <label for="date">Data:
+                <input type="date" name="date" id="date" required>
+            </label>
+            <label for="button">
+                <button type="submit">Enviar</button>
+            </label>
+        </fieldset >
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
