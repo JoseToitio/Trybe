@@ -36,7 +36,17 @@ function techList(array, name) {
   return arrayTechList;
 }
 
+function hydrate(bebidas) {
+  const convert = bebidas.replace(/\D/gim, '');
+  let coposAgua = 0;
+  for(let i in convert) {
+    coposAgua += parseInt(convert[i]);
+  }
+  if (coposAgua === 1) {
+    return `${coposAgua} copo de água`
+  }
+  return `${coposAgua} copos de água`
+}
+console.log(hydrate('1 cerveja, 2 shots e 1 catuaba'))
 
-
-
-module.exports = {sum, myRemove, myFizzBuzz, techList};
+module.exports = {sum, myRemove, myFizzBuzz, techList, hydrate};
