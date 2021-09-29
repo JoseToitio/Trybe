@@ -22,5 +22,21 @@ function myFizzBuzz(num) {
   if (num % 5 === 0) return 'buzz';
   return num;
 }
-console.log(myFizzBuzz('a'))
-module.exports = {sum, myRemove, myFizzBuzz};
+
+function techList(array, name) {
+  if (array.length === 0){ return 'Vazio!'}
+  const arrayOrder = array.sort();
+  let arrayTechList = [];
+  for(let i in arrayOrder) {
+    arrayTechList.push({ 
+      tech: array[i],
+      name: name,
+    });
+  }
+  return arrayTechList;
+}
+
+
+
+
+module.exports = {sum, myRemove, myFizzBuzz, techList};
