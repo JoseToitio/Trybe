@@ -53,4 +53,30 @@ const mageDamage = (mage) => {
   }
   return status;
 }
-console.log(mageDamage(mage))
+// parte 2
+const gameActions = {
+  warriorAction: (warriorDamage) => {
+    const warriorAttack = warriorDamage(warrior);
+    warrior.damage = warriorAttack;
+    dragon.healthPoints -= warriorAttack;
+  },
+  mageAction: (mageDamage) => {
+    const mageStatus = mageDamage(mage);
+    mage.mana -= mageStatus.mana;
+    mage.damage = mageStatus.dano;
+    dragon.healthPoints -= mageStatus.dano
+  },
+  dragonAction: (dragonDamage) => {
+    const dragonAttack = dragonDamage(dragon);
+    dragon.damage = dragonAttack;
+    mage.healthPoints -= dragonAttack;
+    warrior.healthPoints -= dragonAttack;
+  },
+  battleLog: () => battleMembers,
+
+};
+gameActions.warriorAction(warriorDamage);
+gameActions.mageAction(mageDamage);
+gameActions.dragonAction(dragonDamage);
+
+console.log(gameActions.battleLog())
