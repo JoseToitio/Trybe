@@ -164,3 +164,26 @@ function everyoneWasBornOnSecXX() {
 }
 
 assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult3);
+
+const expectedResult4 = true;
+
+function someBookWasReleaseOnThe80s() {
+  // escreva seu código aqui
+  return books.some(element => element.releaseYear > 1980 && element.releaseYear <= 1989)
+}
+
+assert.strictEqual(someBookWasReleaseOnThe80s(), expectedResult4);
+
+const expectedResult5 = false;
+
+function authorUnique() {
+  // escreva seu código aqui
+  return books.every((elementA) => 
+    !books.some((elementB) => 
+      elementA.author.birthYear === elementB.author.birthYear && elementA.name !== elementB.name
+    )
+  )
+}
+
+assert.strictEqual(authorUnique(), expectedResult5);
+
