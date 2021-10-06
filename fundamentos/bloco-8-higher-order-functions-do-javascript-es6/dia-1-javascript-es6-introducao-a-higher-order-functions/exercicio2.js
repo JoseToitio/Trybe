@@ -4,6 +4,6 @@ const numRandom = () => {
 }
 
 const result = (number, callBack) => 
-(number === callBack()) ? `você ganhou!${number}` : `você perdeu!${number}}`
+(number === callBack()) ? `você ganhou!${number}` : `você perdeu!${number}`
 
 console.log(result(2, numRandom))
