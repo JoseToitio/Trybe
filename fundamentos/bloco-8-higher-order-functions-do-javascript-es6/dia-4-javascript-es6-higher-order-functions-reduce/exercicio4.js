@@ -79,7 +79,7 @@ function longestNamedBook() {
     }
 
     return maior;
-  })
+  });
   return maiorNomeDeLivro;
 }
 
