@@ -1,0 +1,16 @@
+{
+  "name": "dia-3-jest-testes-assincronos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
