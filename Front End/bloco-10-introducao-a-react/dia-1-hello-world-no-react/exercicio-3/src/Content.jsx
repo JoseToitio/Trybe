@@ -39,7 +39,7 @@ class Content extends React.Component {
   render() {
     return (
       <div>
-        <p>{renderContent()}</p>
+        {renderContent()}
       </div>
     );
   }
