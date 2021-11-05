@@ -6,6 +6,7 @@ class App extends React.Component {
     super();
     this.state = {
       email: "",
+      emailSubmit: "",
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleEmail = this.handleEmail.bind(this);
@@ -13,26 +14,28 @@ class App extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e)
+    this.setState((previous) => {
+      return {emailSubmit: [...previous.emailSubmit, this.state.email]}
+    })
   };
   handleEmail({ target }) {
     this.setState({
       email: target.value,
     });
   }
-
   render() {
+    const emailsubmit = this.state.emailSubmit;
     return (
       <form onSubmit={this.handleSubmit}>
         <input
           type="text"
-          name="email"
+          name="emailSubmit"
           id=""
           placeholder="email"
           onChange={this.handleEmail}
         />
         <button type="submit">Enviar</button>
-        <span>{this.state.email}</span>
+        <span>{Object.values(emailsubmit).map((email) => (<div key={email}>{email}</div>))}</span>
       </form>
     );
   }
