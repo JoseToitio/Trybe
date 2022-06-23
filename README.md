@@ -88,87 +88,87 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 11: Introdução - React
 
-- [ x] 11-1: _'Hello, world!' no React!_
-- [ x] 11-2: _Componentes React_
-- [ x] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _[Projeto - Movie Cards Library]()_
 
 ##### Bloco 12: React
 
-- [ x] 12-1: _Components com estado_
-- [x ] 12-2: _Eventos e formulários no React_
-- [ x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-1: _Components com estado_
+- [x] 12-2: _Eventos e formulários no React_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
 
 ##### Bloco 13: React
 
-- [x ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ x] 13-2: _Ciclo de vida de componentes em React_
-- [ x] 13-3: _React Router_
-- [ x] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [x] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
+- [x] 13-2: _Ciclo de vida de componentes em React_
+- [x] 13-3: _React Router_
+- [x] 13-4: _[Projeto - Movie Cards Library CRUD]()_
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ x] 14-1: _Metodologias Ágeis_
-- [ x] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-1: _Metodologias Ágeis_
+- [x] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
 
-- [ x] 15-1: _Testando React com a React Testing Library_
-- [ x] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ x] 15-3: _[Projeto - Testes em React]()_
+- [x] 15-1: _Testando React com a React Testing Library_
+- [x] 15-2: _Testando React com a React Testing Library - Parte 2_
+- [x] 15-3: _[Projeto - Testes em React]()_
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ x] 16-1: _Introdução ao Redux_
-- [ x] 16-2: _React com Redux - Parte 1_
-- [ x] 16-3: _React com Redux - Prática_
-- [ x] 16-4: _React com Redux - Parte 2_
-- [ x] 16-5: _Testes síncronos com React-Redux_
-- [ x] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 16-1: _Introdução ao Redux_
+- [x] 16-2: _React com Redux - Parte 1_
+- [x] 16-3: _React com Redux - Prática_
+- [x] 16-4: _React com Redux - Parte 2_
+- [x] 16-5: _Testes síncronos com React-Redux_
+- [x] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
 
-- [x ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 17-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 18: React & Context API
 
-- [ x] 18-1: _Context API do React_
-- [ x] 18-2: _React Hooks - useState e useContext_
-- [ x] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 18-1: _Context API do React_
+- [x] 18-2: _React Hooks - useState e useContext_
+- [x] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [x ] 19-1: _[Projeto - App de Receitas]()_
+- [x] 19-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
-- [ x] 20-1: _Banco de dados SQL_
-- [ x] 20-2: _Encontrando dados em um banco de dados_
-- [ x] 20-3: _Filtrando dados de forma específica_
-- [ x] 20-4: _Manipulando tabelas_
-- [ x] 20-5: _[Projeto - All For One]()_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [x ] 21-1: _Funções mais usadas no SQL_
-- [x ] 21-2: _Descomplicando JOINs e UNIONs_
-- [x ] 21-3: _Stored Routines & Subqueries_
-- [x ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs_
+- [x] 21-3: _Stored Routines & Subqueries_
+- [x] 21-4: _[Projeto - Vocabulary Booster]()_
 
 ##### Bloco 22: Bancos de dados relacionais
 
-- [ x] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [x ] 22-2: _Normalização, Formas Normais e Dumps_
-- [x ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [x ] 22-3: _[Projeto - One For All]()_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-3: _[Projeto - One For All]()_
 
 ##### Bloco 23: Introdução - NoSQL
 
-- [x ] 23-1: _MongoDB - Introdução_
-- [ x] 23-2: _Filter Operators_
-- [x ] 23-3: _[Projeto - Data Flights]()_
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _[Projeto - Data Flights]()_
 
 ##### Bloco 24: Updates
 
